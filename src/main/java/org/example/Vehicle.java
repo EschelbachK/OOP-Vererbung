@@ -6,11 +6,13 @@ public class Vehicle {
     private String model;
     private int yearOfManufacture;
 
+    //Konstruktor
     public Vehicle(String manufacture, String model, int yearOfManufacture) {
         this.manufacture = manufacture;
         this.model = model;
         this.yearOfManufacture = yearOfManufacture;
     }
+    //Methoden
     public String getManufacture() {
         return manufacture;
     }
